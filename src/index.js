@@ -9,7 +9,7 @@ var Alexa = require('alexa-sdk');
 //Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
 var APP_ID = undefined;
 
-var SKILL_NAME = "Space Facts";
+var SKILL_NAME = "First Trimester Baby Development Facts";
 var GET_FACT_MESSAGE = "Here's your fact: ";
 var HELP_MESSAGE = "You can say tell me a space fact, or, you can say exit... What can I help you with?";
 var HELP_REPROMPT = "What can I help you with?";
@@ -19,19 +19,16 @@ var STOP_MESSAGE = "Goodbye!";
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
 //=========================================================================================================================================
 var data = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "At 5 weeks pregnant, your baby looks more like a tadpole than a baby and is made up of three layers, the ectoderm, mesoderm and endoderm. These will later form all of her organs.",
+    "At 6 weeks pregnant, your baby's heart starts to beat and can be seen in an early ultrasound at around 8 weeks.",
+    "At 7 weeks pregnant, your baby's brain, hands and feet are beginning to develop. He also has eyes, eyelids, a nose, an appendix and a pancreas.",
+    "At 8 weeks pregnant, your baby's fingers and toes are developing. Her eyelids almost cover her eyes. Her neural pathways are beginning to form from her developing brain.",
+    "At 9 weeks pregnant, your baby's essential body parts are all formed. This week, his heart finishes dividing into 4 chambers with primitive valves, his external sex organs develop and his teeth begin to form.",
+    "At 10 weeks pregnant, your baby's most critical time of development has completed, and she's ready to grow. Her kidneys, intestines, brain and liver are beginning to function and she can bend her developed limbs.",
+    "At 11 weeks pregnant, your baby's bones are starting to harden. He's developing small tooth buds, and he is able to open and close his fists.",
+    "At 12 weeks pregnant, your baby is developing reflexes including the ability to make sucking movements. Her nerve cells are expanding and are creating synapses in her brain.",
+    "At 13 weeks pregnant, your baby's fingerprints are forming. If she's a girl, her eggs have developed in her ovaries.",
+    "At 14 weeks pregnant, your baby's brain impulses allow him to squint, grimace and suck his thumb. His kidneys are now producing urine, which he is able to pee out."
 ];
 
 //=========================================================================================================================================
